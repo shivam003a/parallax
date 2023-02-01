@@ -1,3 +1,5 @@
+import logo from '../images/bg.jpg';
+
 const AboutMe = () => {
     return (
         <>

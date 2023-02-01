@@ -8,7 +8,7 @@
 }
 
 .home{
-  pointer-events: none;
+  /* pointer-events: none; */
   background-color: #2f4bc6;
   position: relative;
   width: 100%;
@@ -26,20 +26,27 @@
   bottom: 0;
   left: 0;
 }
-#title{
+.title{
   position: absolute;
   z-index: 2;
   color: white;
   font-size: 56px;
-  top: 50%;
 }
-#img_2{
+.img_2{
   z-index: 3;
 }
-#img_3{
-  height: 20%;
-  object-fit: fill;
+.img_3 {
+  height: 20% !important;
+  object-fit: fill !important;
 }
+
+@media only screen and (max-width : 700px) {
+  .title{
+    font-size: 36px;
+  }
+}
+
+
 
 
 
